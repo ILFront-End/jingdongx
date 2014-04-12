@@ -1,0 +1,85 @@
+
+html, body, div, iframe, p, form{
+	margin: 0;
+	padding: 0;
+}
+
+i, font, span,b{
+	line-height: 25px;
+	font-size: 12px;
+	color: #666;
+}
+
+input,select,option{
+	font-size: 12px;
+	border: solid 1px;
+	border-color: #aaa #ddd #ddd #aaa;
+	outline: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #005EA7;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#chongzhi{
+	height: 127px;
+	width: 284px;
+	padding: 0 8px;
+}
+
+.chongzhi_item{
+	padding-top:8px;
+}
+
+b{
+	float: left;
+	font-weight: normal;
+	width:50px;
+	text-align: right;
+}
+
+.rightstyle{
+	margin-left: 50px;
+}
+
+input{
+	color:rgb(154,154,154);
+	width: 113px;
+	padding: 2px;
+}
+
+i{
+	position: absolute;
+	height: 21px;
+	width: 70px;
+	background: #e4393c;
+	border-radius: 3px;
+	font-style: normal;
+	text-align: center;
+	color: #fff;
+	line-height: 21px;
+	cursor: pointer;
+}
+
+.moneyitem_content p{
+	padding:8px 0 0;
+}
+
+.moneyitem_content strong{
+	font-size: 12px;
+	margin-left: 3px;
+	font-weight: bold;
+	color:  #C30;
+}
+
+.moneyitem_content span{
+	margin-left: 70px;
+	padding: 0 5px;
+}
+
+

@@ -1,0 +1,75 @@
+html, body, p{
+	padding:0;
+	margin:0;
+}
+
+i, b, em, strong, span{
+	line-height: 20px;
+	font-size: 12px;
+	color:#666;
+}
+
+b{
+	font-weight: normal;
+}
+
+a{
+	text-decoration: none;
+	color: #005ea7;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+select{
+	outline:0;
+	border:solid 1px;
+	border-color:#aaa #ddd #ddd #aaa;
+}
+
+#caipiao{
+	height: 118px;
+	width: 293px;
+	padding:4px 0 0 7px;
+	overflow: hidden;
+}
+
+#caipiao p{
+	padding-top:5px;
+}
+
+i{
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	top: 15px;
+	background:url(http://misc.360buyimg.com/product/skin/2012/i/20111221D.png);
+ 	background-position: -147px 0;	
+}
+
+.caipiaotontent{
+	margin-left:73px;
+}
+
+.num strong{
+	color: red;
+	font-weight: bold;
+	padding-right: 13px; 
+}
+
+span{
+	position: absolute;
+	padding: 0 10px;
+	background: #e4393c;
+	border-radius: 3px;
+	color: #fff;
+}
+
+p.buttomF{
+	margin-top:3px;
+}
+
+.buttomF b{
+	margin-left:73px;
+}

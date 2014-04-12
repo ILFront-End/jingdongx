@@ -1,0 +1,153 @@
+html, body, p, ul, label{
+	padding:0;
+	margin:0;
+	color: #666;
+}
+
+a, b, span, label,.santextcolor{
+	font-size: 12px;
+	color:#666;
+	line-height: 18px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	color: #005EA7;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+label{
+	float: left;
+	text-align: right;
+	height: 18px;
+}
+
+select{
+	font-size: 12px;
+	height: 18px;
+	width: 80px;
+	border: solid 1px;
+	outline: 0;
+	border-color: #aaa #ddd #ddd #aaa;
+}
+
+p{
+	position: relative;
+}
+
+b.buttom{
+	position: absolute;
+	height: 23px;
+	padding:0 10px;
+	background: #e4393c;
+	border-radius: 3px;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	line-height: 23px;
+	cursor: pointer;
+}
+
+span.link{
+	line-height: 23px;
+	display: block;
+	margin-left: 75px;
+}
+
+.threeselect select{
+	width:55px;
+}
+
+.wrap{
+	overflow: hidden;
+	zoom: 1;
+}
+
+.displaystyle{
+	display: none;
+}
+
+.trakuai{
+	margin-top:10px;
+}
+
+.hotelkuai{
+	margin-top:3px;
+}
+
+.rightmargin{
+	margin-left: 60px;
+}
+
+#travel{
+	height: 121px;
+	width: 294px;
+	padding: 3px;   
+}
+
+#tabnavi{
+	height:20px;
+	padding-top:5px;
+}
+
+#tabnavi li{
+	float: left;
+	width: 15%;
+	height: 20px;
+	text-align: center;
+	position: relative;
+}
+
+#tabnavi span{
+	display:block;
+	color: #005EAB;
+	cursor: pointer;
+}
+
+#tabnavi b{
+	position: absolute;
+	width: 1px;
+	height: 14px;
+	border-left: solid 1px #ddd;
+	top: 3px;
+	right: 0;
+}
+
+.floathalf{
+	float: left;
+	width: 50%;
+}
+
+.flyBR p{
+	padding-top: 10px;
+}
+
+.hotleRight3 p{
+	padding-top: 5px;
+}
+
+.ownomgstyle{
+	padding: 10px 10px 0;
+}
+
+.ownomgstyle p{
+	height:23px;
+}
+
+.floatleft{
+	left: 20%;
+}
+
+#rent img{
+	border:solid 1px #ccc;
+}
+
+
+

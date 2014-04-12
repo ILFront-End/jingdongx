@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="travel.css">
+	<script type="text/javascript" src='../jquery-1.7.2.js'></script>
+	<title></title>
+</head>
+<body>
+	<div id="travel">
+		<div id="tabnavi">
+			<ul class='wrap'>
+				<li>
+					<span>机票</span> <b></b>
+				</li>
+				<li>
+					<span>酒店</span> <b></b>
+				</li>
+				<li>
+					<span>旅游</span>
+					<b></b>
+				</li>
+				<li>
+					<span>租车</span>
+				</li>
+			</ul>
+		</div>
+		<!-- 第一个面板的内容 -->
+		<div id="fly" class='displaystyle'>
+			<div class="wrap trakuai">
+				<div class="floathalf">
+					<label>出发城市：</label>
+					<select name="departure" id="departure">
+						<option value="请选择">--请选择--</option>
+					</select>
+				</div>
+				<div class="floathalf">
+					<label>到达城市：</label>
+					<select name="destination" id="destination">
+						<option value="请选择">--请选择--</option>
+					</select>
+				</div>
+			</div>
+			<div class="trakuai">
+				<label>出发日期：</label>
+				<div class="flyBR santextcolor threeselect rightmargin">
+					<select name="year" class="year">
+						<option value="请选择">请选择</option>
+					</select>
+					年
+					<select name="month" class="month">
+						<option value="请选择">请选择</option>
+					</select>
+					月
+					<select name="day" class="day">
+						<option value="请选择">请选择</option>
+					</select>
+					日
+					<p>
+						<b class='buttom'>机票查询</b>
+						<span  class='link'>
+							<a href="">带你看四月最美春色，买就返</a>
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- 第二个面板的内容 -->
+		<div id="hotel" class='displaystyle'>
+			<div class="hotelkuai">
+				<label>入住城市：</label>
+				<div class="santextcolor">
+					<select name="city" id="city">
+						<option value="请选择">--请选择--</option>
+					</select>
+				</div>
+			</div>
+			<div class="hotelkuai">
+				<label>入住日期：</label>
+				<div class="santextcolor threeselect">
+					<select name="enterdate" class="year">
+						<option value="请选择">请选择</option>
+					</select>
+					年
+					<select name="enterdate" class="month">
+						<option value="请选择">请选择</option>
+					</select>
+					月
+					<select name="enterdate" class="day">
+						<option value="请选择">请选择</option>
+					</select>
+					日
+				</div>
+			</div>
+			<div class="hotelkuai">
+				<label>离店日期：</label>
+				<div class="hotleRight3 santextcolor threeselect rightmargin">
+					<select name="outdate" class="year">
+						<option value="请选择">请选择</option>
+					</select>
+					年
+					<select name="outdate" class="month">
+						<option value="请选择">请选择</option>
+					</select>
+					月
+					<select name="outdate" class="day">
+						<option value="请选择">请选择</option>
+					</select>
+					日
+					<p>
+						<b class='buttom'>酒店查询</b>
+						<span class='link'>
+							<a href="">错峰出行更优惠京豆给力送</a>
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- 第三个面板的内容 -->
+		<div id="travelplay" class='wrap ownomgstyle displaystyle'>
+			<div class="floathalf">
+				<a href="">
+					<img src="http://img12.360buyimg.com/da/g3/M03/07/00/rBEGFFAoshsIAAAAAAAXQaYffacAABX3ADcvdsAABdZ090.jpg" alt=""></a>
+				<p>
+					<b class='buttom floatleft'>度假查询</b>
+				</p>
+			</div>
+			<div class="floathalf">
+				<a href="">
+					<img src="http://img12.360buyimg.com/da/g3/M02/07/00/rBEGFFAosgkIAAAAAAAUlHkLbhAAABX2wPFNo0AABSs075.jpg" alt=""></a>
+				<p>
+					<b class='buttom floatleft'>景区查询</b>
+				</p>
+			</div>
+		</div>
+		<!-- 第四个面板的内容 -->
+		<div id="rent" class='wrap ownomgstyle displaystyle'>
+			<div class="floathalf">
+				<a href="">
+					<img src="http://img13.360buyimg.com/cms/g10/M00/15/10/rBEQWFFsyFQIAAAAAAAns2TDObYAAEM5APX1awAACfL885.jpg" alt=""></a>
+				<p>
+					<b class='buttom floatleft'>租车</b>
+				</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src='travel.js'></script>
+</body>
+</html>
